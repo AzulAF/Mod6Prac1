@@ -259,6 +259,7 @@ class ItemDialog (
 
 
 //A FUTURO, UTILIZAR EL NUMERO DE MESA PARA TRAER EL NOMBRE DEL ARTISTA
+    //Para después
 
     private fun setupTextWatcher(vararg textFields: TextInputEditText){
         val textWatcher = object: TextWatcher{
