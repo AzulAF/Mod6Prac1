@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">Mod6Prac1</string>
+    <string name="genre">Género</string>
+    <string name="game">Juego</string>
+    <string name="confirm">Confirmación</string>
+    <string name="confirm_game">¿Realmente desea eliminar el juego %1$s?</string>
+    <string name="ok">Aceptar</string>
+    <string name="game_removed">Juego borrado exitosamente</string>
+
+    <string name="lorem_ipsum">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
+        volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
+        dui nec risus. Maecenas non sodales nisi, vel dictum dolor. Class aptent taciti sociosqu ad
+        litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse blandit eleifend
+        diam, vel rutrum tellus vulputate quis. Aliquam eget libero aliquet, imperdiet nisl a,
+        ornare ex. Sed rhoncus est ut libero porta lobortis. Fusce in dictum tellus.\n\n
+        Suspendisse interdum ornare ante. Aliquam nec cursus lorem. Morbi id magna felis. Vivamus
+        egestas, est a condimentum egestas, turpis nisl iaculis ipsum, in dictum tellus dolor sed
+        neque. Morbi tellus erat, dapibus ut sem a, iaculis tincidunt dui. Interdum et malesuada
+        fames ac ante ipsum primis in faucibus. Curabitur et eros porttitor, ultricies urna vitae,
+        molestie nibh. Phasellus at commodo eros, non aliquet metus. Sed maximus nisl nec dolor
+        bibendum, vel congue leo egestas.\n\n
+        Sed interdum tortor nibh, in sagittis risus mollis quis. Curabitur mi odio, condimentum sit
+        amet auctor at, mollis non turpis. Nullam pretium libero vestibulum, finibus orci vel,
+        molestie quam. Fusce blandit tincidunt nulla, quis sollicitudin libero facilisis et. Integer
+        interdum nunc ligula, et fermentum metus hendrerit id. Vestibulum lectus felis, dictum at
+        lacinia sit amet, tristique id quam. Cras eu consequat dui. Suspendisse sodales nunc ligula,
+        in lobortis sem porta sed. Integer id ultrices magna, in luctus elit. Sed a pellentesque
+        est.\n\n
+        Aenean nunc velit, lacinia sed dolor sed, ultrices viverra nulla. Etiam a venenatis nibh.
+        Morbi laoreet, tortor sed facilisis varius, nibh orci rhoncus nulla, id elementum leo dui
+        non lorem. Nam mollis ipsum quis auctor varius. Quisque elementum eu libero sed commodo. In
+        eros nisl, imperdiet vel imperdiet et, scelerisque a mauris. Pellentesque varius ex nunc,
+        quis imperdiet eros placerat ac. Duis finibus orci et est auctor tincidunt. Sed non viverra
+        ipsum. Nunc quis augue egestas, cursus lorem at, molestie sem. Morbi a consectetur ipsum, a
+        placerat diam. Etiam vulputate dignissim convallis. Integer faucibus mauris sit amet finibus
+        convallis.\n\n
+        Phasellus in aliquet mi. Pellentesque habitant morbi tristique senectus et netus et
+        malesuada fames ac turpis egestas. In volutpat arcu ut felis sagittis, in finibus massa
+        gravida. Pellentesque id tellus orci. Integer dictum, lorem sed efficitur ullamcorper,
+        libero justo consectetur ipsum, in mollis nisl ex sed nisl. Donec maximus ullamcorper
+        sodales. Praesent bibendum rhoncus tellus nec feugiat. In a ornare nulla. Donec rhoncus
+        libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
+        vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
+    </string>
+    <string name="no_data">There is no data available</string>
+    <string name="merch_name">Merch Name</string>
+    <string name="merch_priority">Priority</string>
+    <string name="merch_tag">Tag</string>
+    <string name="merch_type">Type Dropdown</string>
+    <string name="confirm_item">Desea eleminar el item %1$s?</string>
+    <string name="texto_item">Item</string>
+    <string name="add_element">Add Element</string>
+    <string name="header">Header</string>
+    <string name="merch">Merch</string>
+    <string name="artist">Artist Name</string>
+    <string name="cost">Cost</string>
+    <string name="table">Table Number</string>
+    <string name="tag">Add a tag!</string>
+    <string name="imagen">Imagen</string>
+    <string name="merch_priority_list">Priority DropDown</string>
+    <string name="options">Opciones</string>
+    <string name="save">SAVE</string>
+    <string name="cancel">CANCEL</string>
+    <string name="savedItem">Item safely saved</string>
+    <string name="errorsavedItem">Error while saving Item</string>
+    <string name="updatedItem">Safely updated item</string>
+    <string name="errorupdatedItem">Error while updating item</string>
+    <string name="errorerasingItem">Error while deleting item</string>
+    <string name="erasingItem">Item succesfully erased</string>
+    <string name="cancelar">Cancel</string>
+    <string-array name="merchpriority_options">
+            <item>Opciones</item>
+            <item>ALTA</item>
+            <item>MEDIA</item>
+            <item>BAJA</item>
+    </string-array>
+    <string-array name="merchtype_options">
+        <item>Opciones</item>
+        <item>LLavero</item>
+        <item>Bolsa</item>
+        <item>Playera</item>
+        <item>Stickers</item>
+        <item>Poster</item>
+    </string-array>
+</resources>
