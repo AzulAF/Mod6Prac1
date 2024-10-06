@@ -1,4 +1,4 @@
-package com.azul.mod6prac1.ui
+package com.azul.mod6prac1.ui.adapters
 
 import android.util.Log
 import androidx.recyclerview.widget.RecyclerView
@@ -6,6 +6,7 @@ import com.azul.mod6prac1.R
 
 import com.azul.mod6prac1.data.db.model.ItemEntity
 import com.azul.mod6prac1.databinding.ItemElementBinding
+import com.bumptech.glide.Glide
 
 class ItemViewHolder (
     private val binding: ItemElementBinding
@@ -28,6 +29,7 @@ class ItemViewHolder (
                 else -> R.drawable.priority4
             }
             binding.ivIcon.setImageResource(imageResource)
+            //Glide.with(binding.root.context).load(item).into(binding.ivIcon)
         }
     }
 

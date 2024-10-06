@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#770436"
+    tools:context=".ui.fragments.ItemDetailFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ScrollView
+                android:id="@+id/scrollView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/tvName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:paddingBottom="10dp"
+                        android:textColor="@color/white"
+                        android:textSize="25sp"
+                        tools:text="Title" />
+
+                    <com.makeramen.roundedimageview.RoundedImageView
+                        android:id="@+id/ivImage"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="20dp"
+                        app:riv_corner_radius="10dp"
+                        tools:src="@mipmap/ic_launcher" />
+
+                    <!--Renglon UNO-->
+
+                <LinearLayout
+                    android:baselineAligned="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/tvPisoTEXT"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="20dp"
+                        android:paddingTop="20dp"
+                        android:paddingRight="20dp"
+                        android:paddingBottom="20dp"
+                        android:textColor="@color/white"
+                        android:textSize="18sp"
+                        tools:text="Piso: " />
+
+                    <TextView
+                        android:id="@+id/tvPiso"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="20dp"
+                        android:paddingTop="20dp"
+                        android:paddingRight="20dp"
+                        android:paddingBottom="20dp"
+                        android:textColor="@color/white"
+                        android:textSize="18sp"
+                        tools:text="NumeroDePiso" />
+
+                </LinearLayout>
+
+                    <!--Renglon dos-->
+
+                    <LinearLayout
+                        android:baselineAligned="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tvMesaTEXT"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="20dp"
+                            android:paddingTop="20dp"
+                            android:paddingRight="20dp"
+                            android:paddingBottom="20dp"
+                            android:textColor="@color/white"
+                            android:textSize="18sp"
+                            tools:text="Mesa: " />
+
+                        <TextView
+                            android:id="@+id/tvMesa"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="20dp"
+                            android:paddingTop="20dp"
+                            android:paddingRight="20dp"
+                            android:paddingBottom="20dp"
+                            android:textColor="@color/white"
+                            android:textSize="18sp"
+                            tools:text="NumeroDeMesa" />
+
+                    </LinearLayout>
+
+                    <!--Renglon tres-->
+
+                    <LinearLayout
+                        android:baselineAligned="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tvSellosTEXT"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="20dp"
+                            android:paddingTop="20dp"
+                            android:paddingRight="20dp"
+                            android:paddingBottom="20dp"
+                            android:textColor="@color/white"
+                            android:textSize="18sp"
+                            tools:text="Mesa: " />
+
+                        <TextView
+                            android:id="@+id/tvSellos"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="20dp"
+                            android:paddingTop="20dp"
+                            android:paddingRight="20dp"
+                            android:paddingBottom="20dp"
+                            android:textColor="@color/white"
+                            android:textSize="18sp"
+                            tools:text="NumeroDeMesa" />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/tvPagosTEXT"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="20dp"
+                        android:paddingTop="20dp"
+                        android:paddingRight="20dp"
+                        android:paddingBottom="20dp"
+                        android:textColor="@color/white"
+                        android:textSize="18sp"
+                        tools:text="Tipos de pago disponibles: " />
+
+                    <!--Renglon PAGOS UNO-->
+
+                    <LinearLayout
+                        android:baselineAligned="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tvEfectivoTEXT"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="20dp"
+                            android:paddingTop="20dp"
+                            android:paddingRight="20dp"
+                            android:paddingBottom="20dp"
+                            android:textColor="@color/white"
+                            android:textSize="18sp"
+                            tools:text="Efectivo: " />
+
+                        <TextView
+                            android:id="@+id/tvEfectivo"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="20dp"
+                            android:paddingTop="20dp"
+                            android:paddingRight="20dp"
+                            android:paddingBottom="20dp"
+                            android:textColor="@color/white"
+                            android:textSize="18sp"
+                            tools:text="TextoEfectivo" />
+
+                    </LinearLayout>
+
+                    <!--Renglon PAGOS DOS-->
+
+                    <LinearLayout
+                        android:baselineAligned="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tvTarjetaTEXT"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="20dp"
+                            android:paddingTop="20dp"
+                            android:paddingRight="20dp"
+                            android:paddingBottom="20dp"
+                            android:textColor="@color/white"
+                            android:textSize="18sp"
+                            tools:text="Tarjeta: " />
+
+                        <TextView
+                            android:id="@+id/tvTarjeta"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="20dp"
+                            android:paddingTop="20dp"
+                            android:paddingRight="20dp"
+                            android:paddingBottom="20dp"
+                            android:textColor="@color/white"
+                            android:textSize="18sp"
+                            tools:text="TextoTarjeta" />
+
+                    </LinearLayout>
+
+                    <!--Renglon PAGOS TRES-->
+
+                    <LinearLayout
+                        android:baselineAligned="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tvTransferenciaTEXT"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="20dp"
+                            android:paddingTop="20dp"
+                            android:paddingRight="20dp"
+                            android:paddingBottom="20dp"
+                            android:textColor="@color/white"
+                            android:textSize="18sp"
+                            tools:text="Transferencia: " />
+
+                        <TextView
+                            android:id="@+id/tvTransferencia"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="20dp"
+                            android:paddingTop="20dp"
+                            android:paddingRight="20dp"
+                            android:paddingBottom="20dp"
+                            android:textColor="@color/white"
+                            android:textSize="18sp"
+                            tools:text="TextoTransferencia" />
+
+                    </LinearLayout>
+
+
+
+
+
+
+
+                </LinearLayout>
+            </ScrollView>
+
+            <ProgressBar
+                android:id="@+id/pbLoading"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerInParent="true"
+                android:indeterminateDrawable="@drawable/loading_anim"
+                android:indeterminateDuration="1500"
+                />
+
+        </RelativeLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

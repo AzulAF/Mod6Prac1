@@ -70,10 +70,10 @@
     <string name="erasingItem">Item succesfully erased</string>
     <string name="cancelar">Cancel</string>
     <string-array name="merchpriority_options">
-            <item>Opciones</item>
-            <item>ALTA</item>
-            <item>MEDIA</item>
-            <item>BAJA</item>
+        <item>Opciones</item>
+        <item>ALTA</item>
+        <item>MEDIA</item>
+        <item>BAJA</item>
     </string-array>
     <string-array name="merchtype_options">
         <item>Opciones</item>
@@ -83,4 +83,6 @@
         <item>Stickers</item>
         <item>Poster</item>
     </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

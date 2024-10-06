@@ -48,6 +48,23 @@ dependencies {
 //Corrutinas con alcance lifecycle
     implementation(libs.androidx.lifecycle.runtime.ktx)
 
+    //Para retrofit y Gson
+        implementation(libs.retrofit)
+    implementation(libs.converter.gson)
+
+    //Adicional para el interceptor
+    implementation(libs.logging.interceptor)
+
+    //Glide y Picasso
+    implementation(libs.glide)
+    implementation(libs.picasso)
+
+    //Para las corrutinas con alcance lifecycle
+    implementation(libs.androidx.lifecycle.runtime.ktx)
+
+    //Imágenes con bordes redondeados
+    implementation(libs.roundedimageview)
+
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
